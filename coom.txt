@@ -1,0 +1,9 @@
+dotnet new sln                  //create solution
+dotnet new webapi -n api        //create webapi project
+dotnet sln add api              //add api to solution
+code .                          //open vscode
+
+//open vs terminal at project file place
+dotnet run
+dotnet ef migrations add syoremig --context  StoreContext --output-dir Data/Migrations
+
